@@ -1,0 +1,5 @@
+Flask==3.0.0
+Flask_Cors==4.0.0
+Flask_RESTful==0.3.10
+Requests==2.31.0
+gunicorn==21.2.0

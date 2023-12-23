@@ -1,0 +1,72 @@
+.account-warpper {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  /* background-color: yellow; */
+}
+
+.account-login,
+.account-signup {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.account-info {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: yellowgreen; */
+}
+
+.account-info form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.account-info input {
+  /* background-color: yellowgreen; */
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.account-info button {
+  margin: 0 auto;
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: #f6f6f6;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.account-info h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.account-image img {
+  width: 300px;
+  margin-top: 60px;
+}
+
+.switch {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

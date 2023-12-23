@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f6f6;
+}
+
+/* .home-component {
+    background-color: yellow;
+} */
+
+.hero-section {
+    /* background-color: grey; */
+    min-height: 500px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-title {
+    padding: 10px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.login {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.login-btn {
+    height: 60px;
+    width: 150px;
+    background-color: black;
+    color: #f6f6f6;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
+
+.info {
+    font-weight: 500;
+}
+
+.features {
+    padding: 20px;
+}
+
+.features-why {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: 700;
+}
+
+.features-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-started p {
+    text-align: center;
+}

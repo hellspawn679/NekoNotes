@@ -1,0 +1,17 @@
+.card {
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    /* border: 2px solid black */
+}
+
+.card img {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+.aitxt {
+    height: 75vh;
+    width: 300px;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.aitxt h1 {
+    /* height: 70px; */
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aiText {
+    /* margin: 5px; */
+    background-color: #f6f6f6;
+    height: calc(100% - 51px);
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.qnaText {
+    background-color: #f6f6f6;
+    height: 90px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+

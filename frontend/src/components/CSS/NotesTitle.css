@@ -1,0 +1,20 @@
+.notestilte-wrapper {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notesTitle {
+    margin: 2px 0px 2px 2px;
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.notesTitle:hover {
+    background-color: black;
+    color: #f6f6f6;
+}

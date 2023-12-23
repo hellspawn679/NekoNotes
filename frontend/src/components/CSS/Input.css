@@ -1,0 +1,30 @@
+/* Input.css */
+.input-container {
+    display: flex;
+
+}
+
+#inputText {
+    padding: 40px 20px;
+    background-color: #f6f6f6;
+    height: 80vh;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: start;
+}
+
+.input-txt {
+    height: 75vh;
+    width: 575px;
+}
+
+.input-txt h1 {
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tiptap-container {
+    margin-left: 20px;  /* Adjust the margin as needed for spacing */
+}

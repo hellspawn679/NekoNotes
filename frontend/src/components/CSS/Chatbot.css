@@ -1,0 +1,147 @@
+.custom-flex {
+  /* margin-top: 27px; */
+  margin-left: 10px;
+  display: flex;
+}
+
+.custom-chatbot-container {
+  background-color: #fffefe;
+  /* Set your desired background color */
+  border-radius: 8px;
+  border: 1px solid #1d1d1d;
+  width: 100%;
+  max-width: 400px;
+  /* Adjust the maximum width as needed */
+  height: 50vh;
+  overflow-y: auto;
+  /* Add vertical scrollbar if content exceeds container height */
+}
+
+.custom-chatbot-interaction {
+  margin-top: 16px;
+  height: 90%;
+  /* Occupy full height within the container */
+}
+
+.custom-chatbot-answer {
+  margin-top: 16px;
+}
+
+.custom-text-xl {
+  font-size: 1.25rem;
+}
+
+.custom-font-bold {
+  font-weight: bold;
+}
+
+.custom-mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.custom-chatbot-question {
+  display: flex;
+  align-items: center;
+  /* margin-top: 16px; */
+}
+
+.custom-border {
+  border: 1px solid #ccc;
+}
+
+.custom-rounded-md {
+  border-radius: 4px;
+}
+
+.custom-p-2 {
+  padding: 8px;
+}
+
+.custom-mr-2 {
+  margin-right: 8px;
+}
+
+.custom-flex-grow {
+  flex-grow: 1;
+}
+
+.custom-bg-blue-800 {
+  background-color: #0066cc;
+  /* Set your desired background color */
+  color: #fff;
+  /* Set your desired text color */
+}
+
+.custom-text-white {
+  color: #fff;
+  /* Set your desired text color */
+}
+
+.custom-px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.custom-py-2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.custom-submit-button {
+  /* Add styling for the submit button size */
+  padding: 10px 20px;
+  /* Adjust the padding for your desired size */
+  font-size: 16px;
+  /* Adjust the font size for your desired size */
+  border: none;
+  cursor: pointer;
+
+  border-radius: 4px;
+  background-color: #0066cc;
+  /* Set your desired background color */
+  color: #fff;
+  /* Set your desired text color */
+}
+
+.custom-submit-button:disabled {
+  min-width: 20px;
+  background-color: #ccc;
+  /* Set your desired background color for disabled state */
+  color: #999;
+  /* Set your desired text color for disabled state */
+  cursor: not-allowed;
+}
+
+/* Chatbot.css */
+
+.custom-flex {
+  /* margin-top: 27px; */
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-fill-viewport {
+  height: 100vh;
+}
+
+.custom-chatbot-container {
+  background-color: #fffefe;
+  border-radius: 8px;
+  border: 1px solid #1d1d1d;
+  width: 100%;
+  max-width: 400px;
+  height: 81vh;
+  overflow-y: auto;
+}
+
+.custom-chatbot-interaction {
+  margin-top: auto;
+  height: auto;
+}
+
+.custom-chatbot-answer {
+  margin-top: 16px;
+}
+
+/* ... (rest of your styles) */
