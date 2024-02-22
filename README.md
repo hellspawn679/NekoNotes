@@ -1,12 +1,20 @@
 # Neko Notes 📝
 
-# Welcome to Neko Notes, where note-taking meets magic! 🚀
+<img width="1440" alt="Screenshot 2023-12-17 at 7 39 55 PM" src="https://github.com/AbhiRam162105/NekoFrontend/assets/112550626/626da792-d8a1-4890-ad1d-cb2f3a4ce748">
+
+<img width="1440" alt="Screenshot 2023-12-17 at 7 40 25 PM" src="https://github.com/AbhiRam162105/NekoFrontend/assets/112550626/34115283-0ab3-48f4-b44b-95069b634091">
+
+<img width="1440" alt="Screenshot 2023-12-17 at 7 40 48 PM" src="https://github.com/AbhiRam162105/NekoFrontend/assets/112550626/3150711e-d6d8-425a-800e-2bd5dde46d81">
+
+<img width="1440" alt="Screenshot 2023-12-17 at 7 41 41 PM" src="https://github.com/AbhiRam162105/NekoFrontend/assets/112550626/109918af-2259-4791-a33a-c425c9b3e103">
+
+#Welcome to Neko Notes, where note-taking meets magic! 🚀
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Getting Started with Docker](#getting-started-with-docker)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -35,22 +43,19 @@ Need a quick refresher? Ask questions related to your notes, and our AI will pro
 - **HTML and CSS**: Crafting the beautiful UI.
 - **TailwindCSS**: Adding a dash of style for that modern look.
 - **MongoDB**: For storing the data dynamically.
-- **Docker**:To create a container to maintain a constant environment on every system.
 
-## Getting Started with Docker
+## Getting Started
 
 1. Clone this repository.
-2. Navigate to the project root directory.
-3. Run the following Docker commands:
+2. Navigate to the `frontend` directory and run `npm install` to install dependencies.
+3. Start the React app with `npm start`.
+4. Explore Neko Notes at `http://localhost:3000`.
 
-```bash
-# Build the Docker image
-docker build -t neko-notes .
+5. You may also directly use the url `` where the web application is hosted.
 
-# Run the Docker container
-docker run -p 3000:3000 neko-notes
+Please note that any changes made will be lost upon refresh or closing the browser tab.
+This features will be implemented soon as the backend for the same has been already implemented .Just the frontend is not integrated for this feature to work</s>
 
-```
 ## Usage
 
 1. **Formatting**: Use the toolbar for formatting options.
